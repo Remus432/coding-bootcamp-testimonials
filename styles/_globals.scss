@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  font-size: $fontSize;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  background-image: url("../images/pattern-curve.svg");
+  background-size: 50% 20%;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
